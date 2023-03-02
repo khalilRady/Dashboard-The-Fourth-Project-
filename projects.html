@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&#038;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="page d-flex">
+      <div class="sidebar bg-white p-20 pos-rel shadow-b-25">
+        <h3 class="mt-0 pos-rel txt-c">Elzero</h3>
+        <ul class="list">
+          <li>
+            <a
+              class="gap-10 d-flex align-center p-10 fs-14 rad-6 c-black"
+              href="index.html"
+            >
+              <i class="fa-solid fa-chart-column fa-fw"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="gap-10 d-flex align-center p-10 fs-14 rad-6 c-black"
+              href="sittings.html"
+            >
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="gap-10 d-flex align-center p-10 fs-14 rad-6 c-black"
+              href="profile.html"
+            >
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="active gap-10 d-flex align-center p-10 fs-14 rad-6 c-black"
+              href="projects.html"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="gap-10 d-flex align-center p-10 fs-14 rad-6 c-black"
+              href="courses.html"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>courses</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="gap-10 d-flex align-center p-10 fs-14 rad-6 c-black"
+              href="friends.html"
+            >
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>friends</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="gap-10 d-flex align-center p-10 fs-14 rad-6 c-black"
+              href="files.html"
+            >
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span>files</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="gap-10 d-flex align-center p-10 fs-14 rad-6 c-black"
+              href="plans.html"
+            >
+              <i class="fa-solid fa-credit-card fa-fw"></i>
+              <span>plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content full-width">
+        <!-- start header -->
+        <header class="bg-white p-15 between-flex pos-rel">
+          <div class="search">
+            <form action="">
+              <input
+                type="search"
+                class="rad-10"
+                placeholder="Type A Keyword"
+              />
+            </form>
+          </div>
+          <div class="icons d-flex align-center pos-rel">
+            <span class="notification pos-rel">
+              <i class="fa-regular fa-bell fa-lag"></i>
+            </span>
+            <img src="imgs/avatar.png" alt="" />
+          </div>
+        </header>
+        <!-- end header -->
+        <h1 class="pos-rel">Projects</h1>
+        <div class="projects-page">
+          <div class="container d-grid gap-20">
+            <!-- start first box -->
+            <div class="project-1 main">
+              <div class="between-flex">
+                <span class="fs-18">Elzero Dashboard</span>
+                <span class="c-gray">15/10/2021</span>
+              </div>
+              <p class="fs-14 c-gray">
+                Elzero Dashboard Project Design And Programming And Hosting
+              </p>
+              <div class="members">
+                <img class="one" src="imgs/team-01.png" alt="" />
+                <img class="two" src="imgs/team-02.png" alt="" />
+                <img class="three" src="imgs/team-03.png" alt="" />
+                <img class="four" src="imgs/team-04.png" alt="" />
+                <img class="five" src="imgs/team-05.png" alt="" />
+              </div>
+              <div class="langs">
+                <ul class="m-0 d-flex align-center gap-20">
+                  <li>
+                    <span class="bg-eee fs-14 btn-shape1 borderb-eee"
+                      >Programming</span
+                    >
+                  </li>
+                  <li>
+                    <span class="bg-eee fs-14 btn-shape1 borderb-eee"
+                      >Design</span
+                    >
+                  </li>
+                  <li>
+                    <span class="bg-eee fs-14 btn-shape1 borderb-eee"
+                      >Hosting</span
+                    >
+                  </li>
+                  <li>
+                    <span class="bg-eee fs-14 btn-shape1 borderb-eee"
+                      >Marketing</span
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="progress between-flex">
+                <div class="one pos-rel bg-eee w-250 h-8 rad-6">
+                  <span
+                    class="pos-abs rad-6 w-100 h-full"
+                    style="width: 50%"
+                  ></span>
+                </div>
+                <span class="c-gray fs-16">$ 2500</span>
+              </div>
+            </div>
+            <div class="project-1 main">
+              <div class="between-flex">
+                <span class="fs-18">Academy Portal</span>
+                <span class="c-gray">15/6/2022</span>
+              </div>
+              <p class="fs-14 c-gray">
+                Academy Portal Project Design And Programming
+              </p>
+              <div class="members">
+                <img class="one" src="imgs/team-01.png" alt="" />
+                <img class="two" src="imgs/team-02.png" alt="" />
+                <img class="three" src="imgs/team-03.png" alt="" />
+              </div>
+              <div class="langs">
+                <ul class="m-0 d-flex align-center gap-20">
+                  <li>
+                    <span class="bg-eee fs-14 btn-shape1 borderb-eee"
+                      >Programming</span
+                    >
+                  </li>
+                  <li>
+                    <span class="bg-eee fs-14 btn-shape1 borderb-eee"
+                      >Design</span
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="progress between-flex">
+                <div class="one pos-rel bg-eee w-250 h-8 rad-6">
+                  <span
+                    class="pos-abs rad-6 w-100 h-full"
+                    style="background-color: var(--green-color); width: 80%"
+                  ></span>
+                </div>
+                <span class="c-gray fs-16">$ 1800</span>
+              </div>
+            </div>
+            <div class="project-1 main">
+              <div class="between-flex">
+                <span class="fs-18">Chatting Application</span>
+                <span class="c-gray">15/6/2022</span>
+              </div>
+              <p class="fs-14 c-gray">Chatting Application Project Design</p>
+              <div class="members">
+                <img class="one" src="imgs/team-01.png" alt="" />
+                <img class="two" src="imgs/team-02.png" alt="" />
+                <img class="three" src="imgs/team-03.png" alt="" />
+              </div>
+              <div class="langs">
+                <ul class="m-0 d-flex align-center gap-20">
+                  <!-- <li><span class="bg-eee fs-14 btn-shape1 borderb-eee">Programming</span></li> -->
+                  <li>
+                    <span class="bg-eee fs-14 btn-shape1 borderb-eee"
+                      >Design</span
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="progress between-flex">
+                <div class="one pos-rel bg-eee w-250 h-8 rad-6">
+                  <span
+                    class="pos-abs rad-6 w-100 h-full"
+                    style="background-color: var(--blue-color); width: 100%"
+                  ></span>
+                </div>
+                <span class="c-gray fs-16">$ 950</span>
+              </div>
+            </div>
+            <div class="project-1 main">
+              <div class="between-flex">
+                <span class="fs-18">Ahmed Dashboard</span>
+                <span class="c-gray">15/6/2022</span>
+              </div>
+              <p class="fs-14 c-gray">
+                Ahmed Dashboard Project Design And Programming And Hosting
+              </p>
+              <div class="members">
+                <img class="one" src="imgs/team-01.png" alt="" />
+                <img class="two" src="imgs/team-02.png" alt="" />
+                <img class="three" src="imgs/team-03.png" alt="" />
+              </div>
+              <div class="langs">
+                <ul class="m-0 d-flex align-center gap-20">
+                  <li>
+                    <span class="bg-eee fs-14 btn-shape1 borderb-eee"
+                      >Programming</span
+                    >
+                  </li>
+                  <li>
+                    <span class="bg-eee fs-14 btn-shape1 borderb-eee"
+                      >Design</span
+                    >
+                  </li>
+                  <li>
+                    <span class="bg-eee fs-14 btn-shape1 borderb-eee"
+                      >Hosting</span
+                    >
+                  </li>
+                  <li>
+                    <span class="bg-eee fs-14 btn-shape1 borderb-eee"
+                      >Marketing</span
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="progress between-flex">
+                <div class="one pos-rel bg-eee w-250 h-8 rad-6">
+                  <span
+                    class="pos-abs rad-6 w-100 h-full"
+                    style="background-color: var(--green-color); width: 60%"
+                  ></span>
+                </div>
+                <span class="c-gray fs-16">$ 1700</span>
+              </div>
+            </div>
+            <div class="project-1 main">
+              <div class="between-flex">
+                <span class="fs-18">Ahmed Portal</span>
+                <span class="c-gray">15/6/2022</span>
+              </div>
+              <p class="fs-14 c-gray">
+                Ahmed Portal Project Design And Programming
+              </p>
+              <div class="members">
+                <img class="one" src="imgs/team-01.png" alt="" />
+                <img class="two" src="imgs/team-02.png" alt="" />
+                <img class="three" src="imgs/team-03.png" alt="" />
+              </div>
+              <div class="langs">
+                <ul class="m-0 d-flex align-center gap-20">
+                  <li>
+                    <span class="bg-eee fs-14 btn-shape1 borderb-eee"
+                      >Programming</span
+                    >
+                  </li>
+                  <li>
+                    <span class="bg-eee fs-14 btn-shape1 borderb-eee"
+                      >Design</span
+                    >
+                  </li>
+                  <!-- <li><span class="bg-eee fs-14 btn-shape1 borderb-eee">Hosting</span></li>
+                                <li><span class="bg-eee fs-14 btn-shape1 borderb-eee">Marketing</span></li> -->
+                </ul>
+              </div>
+              <div class="progress between-flex">
+                <div class="one pos-rel bg-eee w-250 h-8 rad-6">
+                  <span
+                    class="pos-abs rad-6 w-100 h-full"
+                    style="background-color: var(--green-color); width: 70%"
+                  ></span>
+                </div>
+                <span class="c-gray fs-16">$ 850</span>
+              </div>
+            </div>
+            <div class="project-1 main">
+              <div class="between-flex">
+                <span class="fs-18">Mohamed Application</span>
+                <span class="c-gray">15/6/2022</span>
+              </div>
+              <p class="fs-14 c-gray">Mohamed Application Project Design</p>
+              <div class="members">
+                <img class="one" src="imgs/team-01.png" alt="" />
+                <img class="two" src="imgs/team-02.png" alt="" />
+                <img class="three" src="imgs/team-03.png" alt="" />
+              </div>
+              <div class="langs">
+                <ul class="m-0 d-flex align-center gap-20">
+                  <!-- <li><span class="bg-eee fs-14 btn-shape1 borderb-eee">Programming</span></li> -->
+                  <li>
+                    <span class="bg-eee fs-14 btn-shape1 borderb-eee"
+                      >Design</span
+                    >
+                  </li>
+                  <!-- <li><span class="bg-eee fs-14 btn-shape1 borderb-eee">Hosting</span></li>
+                                <li><span class="bg-eee fs-14 btn-shape1 borderb-eee">Marketing</span></li> -->
+                </ul>
+              </div>
+              <div class="progress between-flex">
+                <div class="one pos-rel bg-eee w-250 h-8 rad-6">
+                  <span
+                    class="pos-abs rad-6 w-100 h-full"
+                    style="background-color: var(--red-color); width: 30%"
+                  ></span>
+                </div>
+                <span class="c-gray fs-16">$ 950</span>
+              </div>
+            </div>
+            <div class="project-1 main">
+              <div class="between-flex">
+                <span class="fs-18">Mohamed Dashboard</span>
+                <span class="c-gray">15/6/2022</span>
+              </div>
+              <p class="fs-14 c-gray">
+                Mohamed Dashboard Project Design And Programming And Hosting
+              </p>
+              <div class="members">
+                <img class="one" src="imgs/team-01.png" alt="" />
+                <img class="two" src="imgs/team-02.png" alt="" />
+                <img class="three" src="imgs/team-03.png" alt="" />
+                <img class="four" src="imgs/team-04.png" alt="" />
+                <!-- <img class="five" src="imgs/team-05.png" alt=""> -->
+              </div>
+              <div class="langs">
+                <ul class="m-0 d-flex align-center gap-20">
+                  <li>
+                    <span class="bg-eee fs-14 btn-shape1 borderb-eee"
+                      >Programming</span
+                    >
+                  </li>
+                  <li>
+                    <span class="bg-eee fs-14 btn-shape1 borderb-eee"
+                      >Design</span
+                    >
+                  </li>
+                  <li>
+                    <span class="bg-eee fs-14 btn-shape1 borderb-eee"
+                      >Hosting</span
+                    >
+                  </li>
+                  <li>
+                    <span class="bg-eee fs-14 btn-shape1 borderb-eee"
+                      >Marketing</span
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="progress between-flex">
+                <div class="one pos-rel bg-eee w-250 h-8 rad-6">
+                  <span
+                    class="pos-abs rad-6 w-100 h-full"
+                    style="background-color: var(--green-color); width: 60%"
+                  ></span>
+                </div>
+                <span class="c-gray fs-16">$ 1950</span>
+              </div>
+            </div>
+            <div class="project-1 main">
+              <div class="between-flex">
+                <span class="fs-18">Mohamed Portal</span>
+                <span class="c-gray">15/6/2022</span>
+              </div>
+              <p class="fs-14 c-gray">
+                Mohamed Portal Project Design And Programming
+              </p>
+              <div class="members">
+                <img class="one" src="imgs/team-01.png" alt="" />
+                <img class="two" src="imgs/team-02.png" alt="" />
+                <img class="three" src="imgs/team-03.png" alt="" />
+                <!-- <img class="four" src="imgs/team-04.png" alt=""> -->
+                <!-- <img class="five" src="imgs/team-05.png" alt=""> -->
+              </div>
+              <div class="langs">
+                <ul class="m-0 d-flex align-center gap-20">
+                  <li>
+                    <span class="bg-eee fs-14 btn-shape1 borderb-eee"
+                      >Programming</span
+                    >
+                  </li>
+                  <li>
+                    <span class="bg-eee fs-14 btn-shape1 borderb-eee"
+                      >Design</span
+                    >
+                  </li>
+                  <!-- <li><span class="bg-eee fs-14 btn-shape1 borderb-eee">Hosting</span></li>
+                                <li><span class="bg-eee fs-14 btn-shape1 borderb-eee">Marketing</span></li> -->
+                </ul>
+              </div>
+              <div class="progress between-flex">
+                <div class="one pos-rel bg-eee w-250 h-8 rad-6">
+                  <span
+                    class="pos-abs rad-6 w-100 h-full"
+                    style="background-color: var(--green-color); width: 60%"
+                  ></span>
+                </div>
+                <span class="c-gray fs-16">$ 1650</span>
+              </div>
+            </div>
+            <div class="project-1 main">
+              <div class="between-flex">
+                <span class="fs-18">Ahmed Application</span>
+                <span class="c-gray">15/6/2022</span>
+              </div>
+              <p class="fs-14 c-gray">Ahmed Application Project Design</p>
+              <div class="members">
+                <img class="one" src="imgs/team-01.png" alt="" />
+                <img class="two" src="imgs/team-02.png" alt="" />
+                <img class="three" src="imgs/team-03.png" alt="" />
+                <!-- <img class="four" src="imgs/team-04.png" alt=""> -->
+                <!-- <img class="five" src="imgs/team-05.png" alt=""> -->
+              </div>
+              <div class="langs">
+                <ul class="m-0 d-flex align-center gap-20">
+                  <!-- <li><span class="bg-eee fs-14 btn-shape1 borderb-eee">Programming</span></li> -->
+                  <li>
+                    <span class="bg-eee fs-14 btn-shape1 borderb-eee"
+                      >Design</span
+                    >
+                  </li>
+                  <!-- <li><span class="bg-eee fs-14 btn-shape1 borderb-eee">Hosting</span></li>
+                                <li><span class="bg-eee fs-14 btn-shape1 borderb-eee">Marketing</span></li> -->
+                </ul>
+              </div>
+              <div class="progress between-flex">
+                <div class="one pos-rel bg-eee w-250 h-8 rad-6">
+                  <span
+                    class="pos-abs rad-6 w-100 h-full"
+                    style="background-color: var(--green-color); width: 90%"
+                  ></span>
+                </div>
+                <span class="c-gray fs-16">$ 950</span>
+              </div>
+            </div>
+            <!-- end first box -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
